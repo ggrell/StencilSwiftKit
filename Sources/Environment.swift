@@ -13,7 +13,6 @@ public extension Extension {
     registerTag("call", parser: CallNode.parse)
     registerTag("map", parser: MapNode.parse)
     registerFilter("swiftIdentifier", filter: StringFilters.stringToSwiftIdentifier)
-    registerFilter("join", filter: ArrayFilters.join)
     registerFilter("lowerFirstWord", filter: StringFilters.lowerFirstWord)
     registerFilter("snakeToCamelCase", filter: StringFilters.snakeToCamelCase)
     registerFilter("snakeToCamelCaseNoPrefix", filter: StringFilters.snakeToCamelCaseNoPrefix)

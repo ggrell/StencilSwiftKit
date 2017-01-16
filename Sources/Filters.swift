@@ -145,16 +145,6 @@ extension StringFilters {
   }
 }
 
-struct ArrayFilters {
-  static func join(_ value: Any?) throws -> Any? {
-    guard let array = value as? [Any] else { throw FilterError.invalidInputType }
-    let strings = array.flatMap { $0 as? String }
-    guard array.count == strings.count else { throw FilterError.invalidInputType }
-
-    return strings.joined(separator: ", ")
-  }
-}
-
 struct NumFilters {
   static func hexToInt(_ value: Any?) throws -> Any? {
     guard let value = value as? String else { throw FilterError.invalidInputType }
