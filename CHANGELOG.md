@@ -18,7 +18,9 @@ _None_
 
 ### Internal Changes
 
-_None_
+* Added documentation for `macro`, `call` and `set` tags.  
+  [David Jennes](https://github.com/djbe)
+  [#12](https://github.com/SwiftGen/StencilSwiftKit/pull/12)
 
 ## 1.0.0
 
