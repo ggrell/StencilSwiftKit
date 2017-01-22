@@ -14,7 +14,9 @@ _None_
 
 ### New Features
 
-_None_
+* Removed the `join` filter, as it's now integrated in `Stencil` proper.  
+  [David Jennes](https://github.com/djbe)
+  [#10](https://github.com/SwiftGen/StencilSwiftKit/pull/10)
 
 ### Internal Changes
 
